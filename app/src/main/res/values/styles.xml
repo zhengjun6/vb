@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="haa">@color/danlv</item>//haha布局的颜色
+        <item name="colorPrimaryDark">@color/hongse</item>
+        <item name="colorPrimary">#ff0000</item>//toolbar的颜色
+        <item name="textcolor">@color/heise</item>
+        <item name="android:textColorPrimary">@color/baise</item><!--文字的颜色-->
+        <item name="background">@color/baise</item>
+        <item name="reabackground">@color/heise</item>//sortrandom的relatinbackound的背景颜色
+
+    </style>
+    <style name="night" parent="@style/AppTheme">
+        <item name="textcolor">@color/wenziyanse</item>
+        <item name="background">@color/beijingyanse</item>
+        <item name="reabackground">@color/wenziyanse</item>
+        </style>
+
+
+</resources>

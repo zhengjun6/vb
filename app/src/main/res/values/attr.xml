@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<attr name="haa" format="color"></attr>
+    <attr name="textcolor" format="reference"></attr>//文字的颜色
+    <attr name="reabackground" format="color"></attr>//sortrandom的relatinbackound的背景颜色
+
+  
+
+</resources>

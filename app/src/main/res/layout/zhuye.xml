@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="?attr/background"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginBottom="30dp"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+     >
+        <TextView
+
+            android:paddingLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:textColor="?attr/textcolor"
+            android:layout_width="wrap_content"
+            android:id="@+id/tselect"
+            android:layout_height="match_parent"
+            android:text="选择试卷年份"/>
+        <Spinner
+
+          android:layout_toRightOf="@+id/tselect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            ></Spinner>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:textColor="?attr/textcolor"
+       android:background="?attr/background"
+        android:id="@+id/sort"
+        android:paddingLeft="30dp"
+        android:layout_below="@+id/line"
+        android:text="顺序练习"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg1"/>
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:background="?attr/background"
+       android:layout_marginRight="30dp"
+        android:layout_below="@+id/line"
+            android:layout_alignParentRight="true"
+        android:id="@+id/random"
+        android:text="随机练习"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg2"/>
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:background="?attr/background"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/sort"
+
+        android:id="@+id/error"
+        android:text="错题集"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg3"/>
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:background="?attr/background"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/random"
+       android:layout_alignParentRight="true"
+        android:id="@+id/collect"
+        android:text="收藏夹"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg4"/>
+
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:background="?attr/background"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/error"
+
+        android:id="@+id/imament"
+        android:text="模拟测试"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg5"/>
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:background="?attr/background"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/collect"
+        android:layout_alignParentRight="true"
+        android:id="@+id/more"
+        android:text="更多"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/jpg6"/>
+</RelativeLayout>
